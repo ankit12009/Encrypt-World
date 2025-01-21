@@ -1,0 +1,56 @@
+   body {
+        font-family: Arial, sans-serif;
+        background-color: #AC9C8D;
+        color:#72383D;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: auto;
+        background:#D1C7BD;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    input[type="number"],
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+    #password {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    #strength {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }

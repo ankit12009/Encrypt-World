@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt World</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encrypt World</h1>
+        <p>Generate strong, secure, and customizable passwords for your online accounts.</p>
+        
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" value="12" min="8" max="20">
+        
+        <div class="options">
+            <label><input type="checkbox" id="uppercase" checked> Uppercase Letters (A-Z)</label>
+            <label><input type="checkbox" id="lowercase" checked> Lowercase Letters (a-z)</label>
+            <label><input type="checkbox" id="numbers" checked> Numbers (0-9)</label>
+            <label><input type="checkbox" id="special" checked> Special Characters (!@#$%^&*)</label>
+        </div>
+        
+        <button id="generate">Generate Password</button>
+        <button id="copy" name="submit">Copy to Clipboard And Save</button>
+        
+        <h2 id="password"></h2>
+        <div id="strength"></div>
+        <div id="recommendation"></div>
+        
+        <label for="exclusions">Exclude Characters:</label>
+        <input type="text" id="exclusions" placeholder="e.g., abc123">
+        
+        <footer>
+            <p>Your passwords are generated locally and are not stored or transmitted anywhere.<br>
+            Use Copy to Clipboard And Save to secure your password.</p>
+        </footer>
+    </div>
+    
+    
+ <script src="index.js"></script> 
+</body>
+</html>
